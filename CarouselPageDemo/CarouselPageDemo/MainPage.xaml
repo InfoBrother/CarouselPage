@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CarouselPageDemo"
+             x:Class="CarouselPageDemo.MainPage"
+             Title="Carousel Page">
+
+    <!--First Content Page-->
+    <ContentPage>
+        <StackLayout>
+            <Label 
+                Text="First Page" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"
+                TextColor="#184757"
+                Font="bold, 36"
+            />
+            <Image Source="swipe-right.png" 
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+            />            
+        </StackLayout>
+    </ContentPage>
+    
+    <!--Second Content Page-->
+    <ContentPage>
+        <StackLayout>
+            <Label 
+                Text="Second Page" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"
+                TextColor="#184757"
+                Font="bold, 36"
+            />
+            <Image Source="swipe.png" 
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+            />
+        </StackLayout>
+    </ContentPage>
+
+
+     <!--Third Content Page-->
+    <ContentPage>
+        <StackLayout>
+            <Label 
+                Text="Third Page" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"
+                TextColor="#184757"
+                Font="bold, 36"
+            />
+            <Image Source="swipe-left.png" 
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+            />
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
